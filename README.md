@@ -1,2 +1,2 @@
 # Gadol
-simple css grid system(coming soon)
+simple css grid system 
