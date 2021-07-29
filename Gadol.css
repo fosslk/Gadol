@@ -60,21 +60,21 @@ p {
 
 /* POSITIONING */
 
-.left {
+.text-left {
     text-align: left;
 }
 
-.right {
+.text-right {
     text-align: right;
 }
 
-.center {
+.text-center {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.justify {
+.justify-text {
     text-align: justify;
 }
 
@@ -168,10 +168,25 @@ p {
     clear: both;
 }
 
-.hidden-sm {
+/* Helper css starts */
+/* Displayings */
+.d-none {
     display: none;
 }
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.d-inline {
+    display: inline;
+}
 
+/* Helper css ends */
+
+
+/* Responsive css */
 @media only screen and (min-width: 33.75em) {
     /* 540px*/
     .container {
