@@ -167,6 +167,9 @@ p {
     display: table;
     clear: both;
 }
+.hidden-sm {
+    display: none;
+}
 
 /* Helper css starts */
 /* Displayings */
