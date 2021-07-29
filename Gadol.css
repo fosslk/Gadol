@@ -197,12 +197,36 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+
 /* Floatings */
 .float-left {
     float: left;
 }
 .float-right {
     float: right;
+}
+
+/* Positionings */
+.position-absolute {
+    position: absolute;
+}
+.position-relative {
+    position: relative;
+}
+.position-fixed {
+    position: fixed;
+}
+.position-sticky {
+    position: sticky;
+}
+.position-static {
+    position: static;
+}
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 /* Helper css ends */
 
