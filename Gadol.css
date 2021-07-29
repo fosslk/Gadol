@@ -197,6 +197,13 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+/* Floatings */
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
 /* Helper css ends */
 
 
