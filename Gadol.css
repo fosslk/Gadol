@@ -60,21 +60,21 @@ p {
 
 /* POSITIONING */
 
-.left {
+.text-left {
     text-align: left;
 }
 
-.right {
+.text-right {
     text-align: right;
 }
 
-.center {
+.text-center {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-.justify {
+.justify-text {
     text-align: justify;
 }
 
@@ -167,11 +167,71 @@ p {
     display: table;
     clear: both;
 }
-
 .hidden-sm {
     display: none;
 }
 
+/* Helper css starts */
+/* Displayings */
+.d-none {
+    display: none;
+}
+.d-flex {
+    display: flex;
+}
+.d-block {
+    display: block;
+}
+.d-inline {
+    display: inline;
+}
+
+/* Margins */
+.ml-auto {
+    margin-left: auto;
+}
+.mr-auto {
+    margin-right: auto;
+}
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Floatings */
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+/* Positionings */
+.position-absolute {
+    position: absolute;
+}
+.position-relative {
+    position: relative;
+}
+.position-fixed {
+    position: fixed;
+}
+.position-sticky {
+    position: sticky;
+}
+.position-static {
+    position: static;
+}
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Helper css ends */
+
+
+/* Responsive css */
 @media only screen and (min-width: 33.75em) {
     /* 540px*/
     .container {
